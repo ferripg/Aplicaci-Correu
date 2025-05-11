@@ -1,0 +1,15 @@
+{
+  "Ferran": {
+    "username": "Ferran",
+    "hashed_password": "$2b$12$Vk6hS/ZqEgNhJEBfLnwdfOJmimKvHom5.WVfhKvxsl0TpyyXTQm2O",
+    "email": "ferripg2004@gmail.com",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_username": "ferripg2004@gmail.com",
+    "encrypted_smtp_password": "gAAAAABoHikrUtKLk2b3yon3g3b0rCey4TSMt3lIIKwLtin8b4HD5MAM72-vXOpB1GA8ETUSqw4yp-QPJB_KdsvLgtyUPR67pJPq-mIoqZsVNPnfc31Oxmk=",
+    "imap_server": "imap.gmail.com",
+    "imap_port": 993,
+    "imap_username": "ferripg2004@gmail.com",
+    "encrypted_imap_password": "gAAAAABoHikrowC1v8klLQouqO7Rtjpi4ryewRoK-vAxpDjf4xGDGyKG_1LMKgS7GfnN8Nm2hTp4VjVpxxUGuFQhhi1uE5TvhHuyR0n7zEcDwKgk08SKQJc="
+  }
+}
