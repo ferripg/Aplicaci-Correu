@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#FAFAFA">
+
+    <!-- LOGIN FORMULARI -->
+    <LinearLayout
+        android:id="@+id/layoutLogin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvLoginTitle"
+            android:text="Inicia sessió"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"/>
+
+        <EditText
+            android:id="@+id/etLoginUsername"
+            android:hint="Nom d'usuari"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etLoginPassword"
+            android:hint="Contrasenya"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="Inicia sessió"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"/>
+    </LinearLayout>
+
+    <!-- REGISTRE FORMULARI -->
+    <LinearLayout
+        android:id="@+id/layoutRegister"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvRegisterTitle"
+            android:text="Registra't"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"/>
+
+        <EditText
+            android:id="@+id/etRegisterUsername"
+            android:hint="Nom d'usuari"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etRegisterPassword"
+            android:hint="Contrasenya"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/etRegisterEmail"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etRegisterSmtpServer"
+            android:hint="Servidor SMTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etRegisterSmtpPort"
+            android:hint="Port SMTP"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etRegisterSmtpUsername"
+            android:hint="Usuari SMTP"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etRegisterSmtpPassword"
+            android:hint="Contrasenya SMTP"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"/>
+        <EditText
+            android:id="@+id/etRegisterImapServer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Servidor IMAP (ex: imap.gmail.com)"/>
+
+        <EditText
+            android:id="@+id/etRegisterImapPort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Port IMAP (ex: 993)"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/etRegisterImapUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuari IMAP"/>
+
+        <EditText
+            android:id="@+id/etRegisterImapPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contrasenya IMAP"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btnDoRegister"
+            android:text="Registra't"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <!-- BOTO CANVI DE MODE -->
+    <Button
+        android:id="@+id/btnSwitchMode"
+        android:text="No tens compte? Registra't"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#EEEEEE"
+        android:textColor="#2196F3"/>
+</LinearLayout>
